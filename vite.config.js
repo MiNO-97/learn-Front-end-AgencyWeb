@@ -8,4 +8,5 @@ export default defineConfig({
     react(), 
     tailwindcss()
   ],
+  base: process.env.ViTE_BASE_PATH || "/learn-Front-end-AgencyWeb",
 })
